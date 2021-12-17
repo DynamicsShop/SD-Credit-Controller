@@ -4,9 +4,15 @@
 
 #### Enhancements
 
-- BCv19 App - The C/AL code base was converted to AL Extensions.
+- BCv19 App - The C/AL code base was converted to AL extensions. 
 
-- BCv19 App - Changes were made to the HTML Editor and to the Template Card - the page type was changed to standard dialog, new events were published in the Javascript API to receive content on Change Trigger of document, and the changes are now cached and applied only when "Yes" is pressed on the page.  
+- BCv19 App - The Process Reminder Job which is setup in the Manager Company had quotes around the Parameter Name. These quotes were removed. 
+
+- BCv19 App - Changes were made to the filters in the Blocked and On Blocked cues in the Role Centre. 
+
+- BCv19 App - A small typo was fixed on the SD Credit Controller Managed Companies page. 
+
+- BCv19 App - Changes were made to the HTMP Editor and to the Template Card - the page type was changed to standard dialog, new events were published in the Javascript API to receive content on Change Trigger of document, and the changes are now cached and applied only when "Yes" is pressed on the page.  
 
 - BCv19 App - The SDY CC E-Mail Queue List (43021042, List) was recaptioned so it appears in the Tell Me as SD Credit Controller Email Queue - All. 
 
@@ -178,6 +184,8 @@
 
 - BCv19 App - The Application Area and Usage Category properties were added to the SD Credit Controller pages and reports. 
 
+- BCv19 App - SD Credit Controller Licensing Checks were added to the Code. 
+
 - BCv19 App - Additional C/AL changes made to the standard product after conversion to AL began were converted and added to the AL code base. 
 
 - BCv19 App - The Sales Person Code was added to the SD-CC Customer table and displayed on the SD-CC Customer List page. 
@@ -189,6 +197,12 @@
 - BCv19 App - The performance issue fix when batch posting Sales Invoices was ported to all code bases of SD Credit Controller. 
 
 #### Bug Fixes
+
+- BCv19 App - For Repayment Plans the Generate Journal Lines action was not picking up the Document No. from the No. Series specified in the Journal Batch Setup.
+
+- BCv19 App - An error was raised when processing Workflows of Type Email that had the CC to Credit Controller option switched on and a Credit Controller did not exist for the Customer.
+
+- BCv19 App - An error was raised when users clicked on the "Your Licence has Expired" message. 
 
 - BCv19 App - In the Template Card, choosing the Output Type blanked out the Filename entered in a Template of Type Word Merge Document. 
 
@@ -235,6 +249,8 @@
 - BCv19 App - The Company Hierarchy FactBox on the SD Credit Controller Managed Companies list was not populating after conversion from C/Al to AL. 
 
 - BCv19 App - Fixed an issue where an error was raised when sending emails from the Email Queue where the Customer had special characters in their name. 
+
+- BCv19 App - The SD Credit Controller Customer Ledger Entry was not synced for Managed companies into the Managed Company. 
 
 - BCv19 App - Some of the place holder fields in the Template card were showing with empty names and some other place holders were missing from the place older list. 
 
