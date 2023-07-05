@@ -1,5 +1,19 @@
 ## SD Credit Controller Releases
 
+### 10.1.1
+
+#### Enhancements
+
+- AppSource App - A change was made to limit the SD ISV Tenant Subscriptions page to display just our SD ISV AppSource Apps and not other SD PTE Apps.
+
+#### Bug Fixes
+
+- AppSource App - A fix was made to an issue where the summary place holder fields were not populating when a reminder email was generated using workflows for a customer a subsequent time with the consolidated email option set to true and the minimum interval set to blank.
+
+- AppSource App - A change was made to the ISV Licence Notification procedure in SD Credit Controller to fix an issue that would raise an error when the language is changed from English to another language.
+
+- AppSource App - An error will raise in the Assisted Setup import if non sequential enum values exist in the imported data. This was fixed.
+
 ### 10.1.0
 
 #### Enhancements
