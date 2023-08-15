@@ -1,5 +1,11 @@
 ## SD Credit Controller Releases
 
+### 10.1.2
+
+#### Bug Fixes
+
+- AppSource App - When creating a follow up action in a filtered view filtered to today's date, the follow up action was created but instantly filtered out of the current view. Users had to reopen the follow up action to enter comments. This was fixed. Now when a follow up action is created in a view filtered to today's date, the follow up action remains open until the user closes it.
+
 ### 10.1.1
 
 #### Enhancements
