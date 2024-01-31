@@ -1,5 +1,13 @@
 ## SD Credit Controller Releases
 
+### 10.1.3
+
+#### Enhancements
+
+- AppSource App - New functionality was added to allow bulk deletion of SD Credit Controller Actions. Users can bulk delete by choosing to delete selected or filtered records.
+
+- AppSource App - Links in the About page were updated.
+
 ### 10.1.2
 
 #### Bug Fixes
