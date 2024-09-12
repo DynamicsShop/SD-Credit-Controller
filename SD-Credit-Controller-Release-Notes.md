@@ -1,5 +1,13 @@
 ## SD Credit Controller Releases
 
+### 10.1.4
+
+#### Enhancements
+
+- AppSource App - Update for 2024 wave 2 release. Report Interactions no longer contains a definition for the FindInteractTmplCode function in 2024 wave 2. FindInteractTmplCode function replaced with new functionality.
+
+- AppSource App - The logo in the App was updated to the new logo.
+
 ### 10.1.3
 
 #### Enhancements
