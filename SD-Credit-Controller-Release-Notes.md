@@ -1,5 +1,17 @@
 ## SD Credit Controller Releases
 
+### 10.1.5
+
+#### Enhancements
+
+- AppSource App - A change was made to the licence expiry notification. The logic for checking for expiry dates was reworked.
+
+- AppSource App - Enhancements were made to the App Request Subscription page.
+
+- AppSource App - Additional phrases were added as search phrases for the SD Credit Controller pages.
+
+- AppSource App - ToolTips were updated in the About, Product Activation, and Tenant Subscription pages.
+
 ### 10.1.4
 
 #### Enhancements
