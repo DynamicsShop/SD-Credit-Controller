@@ -1,5 +1,29 @@
 ## SD Credit Controller Releases
 
+### 10.2.0
+
+#### Enhancements
+
+- AppSource App - A new Licence Activation and Setup Wizard was created to guide users through new installations of the app.
+
+- AppSource App - A new improved and optimised HTML editor used in the Comments section of a Case Action and in the Email Templates Card was added to SD Credit Controller.
+
+- AppSource App - The notification to activate the app, displayed on fresh install of SD Credit Controller, was added to the standard Business Central role centres.
+
+- AppSource App - Changes were made to the Manage Subscriptions page.
+
+- AppSource App - The Lead Subscription Link from the Request Subscription action in the Product Activation page was updated.
+
+- AppSource App - A new action was added to the Setup Card called View Our Apps. This action opens a page on AppSource pointing to all our Simply Dynamics Ltd apps.
+
+- AppSource App - A minor change was made to the Product Activation page.
+
+- AppSource App - A link to the user guide on the DynamicsShop page was added to the About page.
+
+- AppSource App - The licence expiry checks were standardised as per our other apps.
+
+- AppSource App - The SDY CC Controller Activity CardPart was made searchable and captioned as SD Credit Controller Activities so users can bookmark to their role centre.
+
 ### 10.1.5
 
 #### Enhancements
@@ -1068,4 +1092,5 @@
 - Create a Worksheet for SD Credit Controller.
 
 - Review UI.
+
 
