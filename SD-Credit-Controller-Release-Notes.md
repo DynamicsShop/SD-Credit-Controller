@@ -24,6 +24,10 @@
 
 - AppSource App - The SDY CC Controller Activity CardPart was made searchable and captioned as SD Credit Controller Activities so users can bookmark to their role centre.
 
+- AppSource App - Changes were made to ensure compatibility with the D365 BC 2025 Wave 2 release.
+
+- AppSource App - A minor change was made to the functionality used to render the email body in the SD Credit Controller Email Queue.
+
 ### 10.1.5
 
 #### Enhancements
@@ -1092,5 +1096,6 @@
 - Create a Worksheet for SD Credit Controller.
 
 - Review UI.
+
 
 
