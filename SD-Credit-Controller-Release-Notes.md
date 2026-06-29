@@ -1,5 +1,17 @@
 ## SD Credit Controller Releases
 
+### 10.2.1
+
+#### Enhancements
+
+- The link in the View Our Apps action on the Setup Card was updated.
+
+- The Manage Subscriptions Page, accessed from the Setup Card, was updated.
+
+#### Bug Fixes
+
+- An error was raised intermittently when marking actions as complete. This was fixed.
+  
 ### 10.2.0
 
 #### Enhancements
