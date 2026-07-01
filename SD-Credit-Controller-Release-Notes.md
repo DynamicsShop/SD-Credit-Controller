@@ -4,6 +4,8 @@
 
 #### Enhancements
 
+- UI Changes were made to Credit Controller Actions List. The Summary field was updated and the Action Entry No. was surfaced.
+
 - The link in the View Our Apps action on the Setup Card was updated.
 
 - The Manage Subscriptions Page, accessed from the Setup Card, was updated.
@@ -11,6 +13,8 @@
 #### Bug Fixes
 
 - An error was raised intermittently when marking actions as complete. This was fixed.
+
+- The Apply Action Template action was inserting the Comment from the Template into the Action Comments but users had to close the page or refresh to see the comment. This was fixed.
   
 ### 10.2.0
 
