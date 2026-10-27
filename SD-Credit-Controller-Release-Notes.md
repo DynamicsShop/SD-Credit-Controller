@@ -1,5 +1,37 @@
 ## SD Credit Controller Releases
 
+### 11.0.0
+
+#### Enhancements
+
+- Telemetry was added to log when a workflow is processed in SD Credit Controller.
+
+- Improved the user experience in SD Credit Controller by updating tooltips across the SD Credit Controller pages, to provide more consistent, accurate, and user-friendly guidance on page fields and actions.
+
+- Customers that have a Credit Limit (LCY) defined and that have a Running Balance (LCY) greater than their Credit Limit (LCY) are now highlighted in red in the SD Credit Controller Customer List page.
+
+- New functionality has been added to prevent sales orders from being released or posted when a customer has exceeded their credit limit. This behaviour is controlled by the Check Credit Limit setting on the SD Credit Controller Setup card. A new Allow Override Credit Limit field has also been added to User Setup, enabling authorised users to release sales orders that exceed a customer's credit limit.
+
+- Created a new action in the SD Credit Controller list to assign all customers that do not currently have a credit controller to a selected credit controller. Existing credit controller assignments remain unchanged.
+
+- A new Bill-to Customer Overview Fact Box was created to display the amount of Sell-to Customers that have the Customer as their Bill-To, the amount of unposted sales orders that exist for those customers and the amount of Shipped not Invoiced sales orders.
+
+- References to Litigation Category have been updated to Dispute Category.
+
+- Removed the Word Merge Functionality from SD Credit Controller and created a new table Workflow Attachment.
+
+- The SDY CC Workflow Attachment ListPart, Page ID 43021040, was made obsolete.
+
+- The stamping of Global Dimensions and Shortcut Dimensions on the Credit Controller Ledger Entries was reworked.
+
+- The notification prompting users to activate a free trial of SD Credit Controller on a fresh install has been limited to display no more than once per hour on standard role centres.
+
+- An update was made to the message displayed on the Activation page on initial installation of the App.
+
+#### Bug Fixes
+
+- A fix was implemented for an error that occurred when using the New Payment Plan action from the SDY CC Action List.
+
 ### 10.2.1
 
 #### Enhancements
