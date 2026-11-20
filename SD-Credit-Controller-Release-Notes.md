@@ -1,5 +1,11 @@
 ## SD Credit Controller Releases
 
+### 11.0.1
+
+#### Bug Fixes
+
+- Fixed an issue where SD Credit Controller was preventing the renumbering of customers in both standalone companies and in manager companies.  
+
 ### 11.0.0
 
 #### Enhancements
